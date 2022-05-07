@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+h1 {
+    margin-top: 30;
+    margin-bottom: 15;
+}
+
+#who-won {
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
