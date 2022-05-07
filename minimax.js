@@ -17,6 +17,8 @@ function bestMove() {
     let bestScore = -Infinity
     let move
 
+    // If space is empty, assign it a score using the minimax function. If the score is better than all previous set it as the best move
+
     for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
             if (board[i][j] == '') {

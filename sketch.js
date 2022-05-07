@@ -96,12 +96,16 @@ function draw() {
       if (spot == human) {
         noFill();
         stroke(71, 111, 255);
+        strokeWeight(8);
         ellipse(x, y, r * 2);
+        strokeWeight(4);
         stroke(0,0,0)
       } else if (spot == ai) {
         stroke(219, 48, 80)
+        strokeWeight(8);
         line(x - r, y - r, x + r, y + r);
         line(x + r, y - r, x - r, y + r);
+        strokeWeight(4);
         stroke(0,0,0)
       }
     }
